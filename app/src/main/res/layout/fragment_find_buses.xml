@@ -1,0 +1,50 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="#FFFFFF"
+    android:orientation="vertical"
+    android:layout_gravity="center"
+    android:padding="16dp">
+
+    <EditText
+        android:id="@+id/bus1_text_id"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:hint="@string/where_to_board_from" />
+
+    <EditText
+        android:id="@+id/bus1_text_id2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:hint="@string/destination" />
+
+    <EditText
+        android:id="@+id/idSelectedDate"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_gravity="center"
+        android:hint="@string/selected_date" />
+
+    <ImageButton
+        android:id="@+id/selectDateButton"
+        android:layout_width="55dp"
+        android:layout_height="52dp"
+        android:layout_gravity="center"
+        android:background="@color/white"
+        android:contentDescription="@string/todo1"
+        android:scaleType="fitXY"
+        app:srcCompat="@drawable/calender_icon" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/send_button_id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:background="@color/fusion_red"
+        android:text="@string/find_buses"
+        android:textColor="@color/white"/>
+
+</LinearLayout>

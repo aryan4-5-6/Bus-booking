@@ -1,0 +1,292 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="20dp"
+    android:layout_gravity="center"
+    android:layout_marginEnd="15dp"
+    android:layout_marginStart="15dp"
+    android:scrollbarSize="10dp">
+    <TableLayout android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            tools:ignore="UseCompoundDrawables">
+            <ImageView
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:contentDescription="@string/todo2"
+                android:src="@drawable/seats" />
+
+            <TextView
+                android:layout_width="79dp"
+                android:layout_height="match_parent"
+                android:text="@string/Booked"
+                android:textSize="18sp">
+            </TextView>
+            <ImageView
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:contentDescription="@string/todo2"
+                android:src="@drawable/seats_available" />
+
+            <TextView
+                android:layout_width="93dp"
+                android:layout_height="match_parent"
+                android:text="@string/available"
+                android:textSize="18sp">
+            </TextView>
+            <ImageView
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:contentDescription="@string/todo2"
+                android:src="@drawable/seats_selected" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="@string/selected"
+                android:textSize="18sp">
+            </TextView>
+        </LinearLayout>
+
+        <TextView
+            android:text="@string/bus_rows"
+            android:textSize="20sp"
+            tools:ignore="SmallSp">
+        </TextView>
+        <TableRow tools:ignore="UselessParent">
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/seat1"
+                android:layout_width="49dp"
+                android:layout_height="wrap_content"
+                android:background="@drawable/seats"
+                tools:ignore="DuplicateIds" />
+            <TextView
+                android:padding="10dp">
+            </TextView>
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/seat2"
+                android:layout_width="49dp"
+                android:layout_height="wrap_content"
+                android:background="@drawable/seats"
+                tools:ignore="DuplicateIds" />
+            <TextView
+                android:layout_width="100dp"
+                android:gravity="center">
+            </TextView>
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/seat3"
+                android:layout_width="49dp"
+                android:layout_height="wrap_content"
+                android:background="@drawable/seats"
+                tools:ignore="DuplicateIds" />
+            <TextView
+                android:padding="10dp">
+            </TextView>
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/seat4"
+                android:layout_width="49dp"
+                android:layout_height="wrap_content"
+                android:background="@drawable/seats"
+                tools:ignore="DuplicateIds" />
+        </TableRow>
+        <TextView
+            android:padding="5dp">
+        </TextView>
+        <TableRow tools:ignore="UselessParent">
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/seat5"
+                android:layout_width="49dp"
+                android:layout_height="wrap_content"
+                android:background="@drawable/seats"
+                tools:ignore="DuplicateIds" />
+            <TextView
+                android:padding="10dp">
+            </TextView>
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/seat6"
+                android:layout_width="49dp"
+                android:layout_height="wrap_content"
+                android:background="@drawable/seats"
+                tools:ignore="DuplicateIds" />
+            <TextView
+                android:layout_width="100dp"
+                android:gravity="center">
+            </TextView>
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/seat7"
+                android:layout_width="49dp"
+                android:layout_height="wrap_content"
+                android:background="@drawable/seats"
+                tools:ignore="DuplicateIds" />
+            <TextView
+                android:padding="10dp">
+            </TextView>
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/seat8"
+                android:layout_width="49dp"
+                android:layout_height="wrap_content"
+                android:background="@drawable/seats"
+                tools:ignore="DuplicateIds" />
+        </TableRow>
+        <TextView
+            android:padding="5dp">
+        </TextView>
+        <TableRow tools:ignore="UselessParent">
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/seat9"
+                android:layout_width="49dp"
+                android:layout_height="wrap_content"
+                android:background="@drawable/seats"
+                tools:ignore="DuplicateIds" />
+            <TextView
+                android:padding="10dp">
+            </TextView>
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/seat10"
+                android:layout_width="49dp"
+                android:layout_height="wrap_content"
+                android:background="@drawable/seats_available"
+                tools:ignore="DuplicateIds" />
+            <TextView
+                android:layout_width="100dp"
+                android:gravity="center">
+            </TextView>
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/seat11"
+                android:layout_width="49dp"
+                android:layout_height="wrap_content"
+                android:background="@drawable/seats"
+                tools:ignore="DuplicateIds" />
+            <TextView
+                android:padding="10dp">
+            </TextView>
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/seat12"
+                android:layout_width="49dp"
+                android:layout_height="wrap_content"
+                android:background="@drawable/seats"
+                tools:ignore="DuplicateIds" />
+        </TableRow>
+        <TextView
+            android:padding="5dp">
+        </TextView>
+        <TableRow tools:ignore="UselessParent">
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/seat13"
+                android:layout_width="49dp"
+                android:layout_height="wrap_content"
+                android:background="@drawable/seats"
+                tools:ignore="DuplicateIds" />
+            <TextView
+                android:padding="10dp">
+            </TextView>
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/seat14"
+                android:layout_width="49dp"
+                android:layout_height="wrap_content"
+                android:background="@drawable/seats"
+                tools:ignore="DuplicateIds" />
+            <TextView
+                android:layout_width="100dp"
+                android:gravity="center">
+            </TextView>
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/seat15"
+                android:layout_width="49dp"
+                android:layout_height="wrap_content"
+                android:background="@drawable/seats"
+                tools:ignore="DuplicateIds" />
+            <TextView
+                android:padding="10dp">
+            </TextView>
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/seat16"
+                android:layout_width="49dp"
+                android:layout_height="wrap_content"
+                android:background="@drawable/seats"
+                tools:ignore="DuplicateIds" />
+        </TableRow>
+        <TextView
+            android:padding="5dp">
+        </TextView>
+        <TableRow tools:ignore="UselessParent">
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/seat17"
+                android:layout_width="49dp"
+                android:layout_height="wrap_content"
+                android:background="@drawable/seats"
+                tools:ignore="DuplicateIds" />
+            <TextView
+                android:padding="10dp">
+            </TextView>
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/seat18"
+                android:layout_width="49dp"
+                android:layout_height="wrap_content"
+                android:background="@drawable/seats"
+                tools:ignore="DuplicateIds" />
+            <TextView
+                android:layout_width="100dp"
+                android:gravity="center">
+            </TextView>
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/seat19"
+                android:layout_width="49dp"
+                android:layout_height="wrap_content"
+                android:background="@drawable/seats"
+                tools:ignore="DuplicateIds" />
+            <TextView
+                android:padding="10dp">
+            </TextView>
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/seat20"
+                android:layout_width="49dp"
+                android:layout_height="wrap_content"
+                android:background="@drawable/seats"
+                tools:ignore="DuplicateIds" />
+        </TableRow>
+        <TextView
+            android:padding="5dp">
+        </TextView>
+        <TableRow tools:ignore="UselessParent">
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/seat21"
+                android:layout_width="49dp"
+                android:layout_height="wrap_content"
+                android:background="@drawable/seats"
+                tools:ignore="DuplicateIds" />
+            <TextView
+                android:padding="10dp">
+            </TextView>
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/seat22"
+                android:layout_width="49dp"
+                android:layout_height="wrap_content"
+                android:background="@drawable/seats"
+                tools:ignore="DuplicateIds" />
+            <TextView
+                android:layout_width="100dp"
+                android:gravity="center">
+            </TextView>
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/seat23"
+                android:layout_width="49dp"
+                android:layout_height="wrap_content"
+                android:background="@drawable/seats"
+                tools:ignore="DuplicateIds" />
+            <TextView
+                android:padding="10dp">
+            </TextView>
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/seat24"
+                android:layout_width="49dp"
+                android:layout_height="wrap_content"
+                android:background="@drawable/seats"
+                tools:ignore="DuplicateIds" />
+        </TableRow>
+        <TextView
+            android:padding="5dp">
+        </TextView>
+    </TableLayout>
+</ScrollView>

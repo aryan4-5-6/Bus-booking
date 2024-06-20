@@ -1,0 +1,31 @@
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/fusion_red"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:ignore="Deprecated,ExtraText">
+    <TextView
+        android:padding="35dp"/>
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:text="@string/welcome"
+        android:textColor="#FFFFFF"
+        android:textSize="30sp"
+        android:gravity="center"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/where_do_you_want_to_go"
+        android:textColor="#FFFFFF"
+        android:textSize="19sp"
+        android:gravity="center"/>
+    <ImageView
+        android:layout_width="88dp"
+        android:layout_height="80dp"
+        android:contentDescription="@string/todo2"
+        android:src="@drawable/bus_icon_front" />
+</TableLayout>

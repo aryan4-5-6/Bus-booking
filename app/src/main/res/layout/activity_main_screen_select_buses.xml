@@ -1,0 +1,30 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical">
+
+<!--    <FrameLayout-->
+<!--        android:id="@+id/fragmentContainer2"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="0dp"-->
+<!--        android:layout_weight="1" />-->
+
+    <fragment
+        android:id="@+id/fragment3"
+        android:name="com.example.busbooking.Select_bus_frag1"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        tools:ignore="Instantiatable"
+        tools:layout="@layout/fragment_bus_text" />
+
+    <fragment
+        android:id="@+id/fragment4"
+        android:name="com.example.busbooking.Select_bus_frag2"
+        android:layout_width="match_parent"
+        android:layout_height="339dp"
+        android:layout_weight="1"
+        tools:layout="@layout/fragment_buses" />
+
+</LinearLayout>

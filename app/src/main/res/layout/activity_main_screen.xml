@@ -1,0 +1,61 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical">
+
+<!--    <FrameLayout-->
+<!--        android:id="@+id/fragmentContainer"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="0dp"-->
+<!--        android:layout_weight="1" />-->
+
+    <fragment
+        android:id="@+id/fragment1"
+        android:name="com.example.busbooking.Welcome_frag1"
+        android:layout_width="match_parent"
+        android:layout_height="170dp"
+        android:layout_weight="1"
+        tools:ignore="MissingClass,Suspicious0dp"
+        tools:layout="@layout/fragment_welcome" />
+
+    <fragment
+        android:id="@+id/fragment2"
+        android:name="com.example.busbooking.Welcome_frag2"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:layout_weight="1"
+        tools:ignore="Suspicious0dp"
+        tools:layout="@layout/fragment_find_buses" />
+
+<!--    <LinearLayout-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:orientation="horizontal">-->
+
+<!--        &lt;!&ndash; Add your bottom options buttons here &ndash;&gt;-->
+<!--        <Button-->
+<!--            android:layout_width="0dp"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_weight="1"-->
+<!--            android:text="@string/home"-->
+<!--            android:textColor="@color/black"-->
+<!--            style="?android:attr/buttonBarButtonStyle" />-->
+
+<!--        <Button-->
+<!--            android:layout_width="0dp"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_weight="1"-->
+<!--            android:text="@string/tickets"-->
+<!--            android:textColor="@color/black"-->
+<!--            style="?android:attr/buttonBarButtonStyle" />-->
+
+<!--        <Button-->
+<!--            android:layout_width="0dp"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_weight="1"-->
+<!--            android:text="@string/settings"-->
+<!--            android:textColor="@color/black"-->
+<!--            style="?android:attr/buttonBarButtonStyle" />-->
+<!--    </LinearLayout>-->
+</LinearLayout>

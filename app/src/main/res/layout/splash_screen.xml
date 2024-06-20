@@ -1,0 +1,24 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/fusion_red">
+
+    <ImageView
+        android:id="@+id/busIcon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:src="@drawable/bus_icon"
+        android:contentDescription="@string/todo" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/getStartedButton"
+        android:layout_width="223dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/busIcon"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="17dp"
+        android:background="@color/button_yellow"
+        android:text="@string/get_started"
+        android:textColor="@color/white" />
+</RelativeLayout>

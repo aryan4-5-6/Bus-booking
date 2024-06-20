@@ -1,0 +1,67 @@
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/fusion_red"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:ignore="Deprecated,ExtraText">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:text="@string/select_your_seat"
+        android:textColor="#FFFFFF"
+        android:textSize="20sp"
+        android:gravity="center"/>
+    <TableRow>
+
+        <TextView
+            android:id="@+id/recievedDestination"
+            android:layout_width="111dp"
+            android:layout_height="wrap_content"
+            android:gravity="right"
+            android:textColor="#FFFFFF"
+            android:textSize="19sp"
+            tools:ignore="RtlHardcoded" />
+
+        <TextView
+            android:layout_width="147dp"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="@string/divider"
+            android:textColor="#FFFFFF"
+            android:textSize="19sp" />
+
+        <TextView
+            android:id="@+id/recievedDestination2"
+            android:layout_width="284dp"
+            android:layout_height="wrap_content"
+            android:gravity="left"
+            android:textColor="#FFFFFF"
+            android:textSize="19sp"
+            tools:ignore="RtlHardcoded" />
+    </TableRow>
+    <TextView
+        android:id="@+id/recievedDate"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:textColor="#FFFFFF"
+        android:textSize="20sp"
+        android:gravity="center"/>
+
+    <TextView
+        android:id="@+id/bus1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/bus4_without_seats"
+        android:padding="10dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginTop="10dp"
+        android:gravity="left"
+        android:textSize="18sp"
+        android:background="@drawable/custom_button"
+        tools:ignore="RtlHardcoded" />
+</TableLayout>
